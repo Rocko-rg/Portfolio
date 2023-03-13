@@ -257,9 +257,6 @@ header{
     justify-content: space-between;
     position: relative;
 }
-.progress-chart h6 span{
-    position: absolute;
-}
 .progress{
     width: 100%;
     height: 10px;
@@ -267,79 +264,10 @@ header{
     border-radius: 5px;
 }
 .progress-bar{
+    width: 100%;
     height: 8px;
     background: var(--linear-gradient-3);
     border-radius: 5px;
-}
-.html-chart .progress-bar{
-    width: 90%;
-}
-.html-chart span{
-    left: 90%;
-    margin-left: -30px;
-}
-.css-chart .progress-bar{
-    width: 80%;
-}
-.css-chart span{
-    left: 80%;
-    margin-left: -30px;
-}
-.javascript-chart .progress-bar{
-    width: 60%;
-}
-.javascript-chart span{
-    left: 60%;
-    margin-left: -30px;
-}
-.bootstrap-chart .progress-bar{
-    width: 70%;
-}
-.bootstrap-chart span{
-    left: 70%;
-    margin-left: -30px;
-}
-.angular-chart .progress-bar{
-    width: 60%;
-}
-.angular-chart span{
-    left: 60%;
-    margin-left: -30px;
-}
-.lightroom-chart .progress-bar{
-    width: 100%;
-}
-.lightroom-chart span{
-    left: 100%;
-    margin-left: -36px;
-}
-.photoshop-chart .progress-bar{
-    width: 60%;
-}
-.photoshop-chart span{
-    left: 60%;
-    margin-left: -30px;
-}
-.premiere-chart .progress-bar{
-    width: 70%;
-}
-.premiere-chart span{
-    left: 70%;
-    margin-left: -30px;
-}
-.photography-chart .progress-bar{
-    width: 80%;
-}
-.photography-chart span{
-    left: 80%;
-    margin-left: -30px;
-}
-.videography-chart .progress-bar{
-    width: 80%;
-}
-.videography-chart span{
-    left: 80%;
-    margin-left: -30px;
 }
 
 /*---------------------------- Portfolio ----------------------------*/
@@ -664,36 +592,6 @@ header{
     }
     .progress-bar{
         height: 5px;
-    }
-    .html-chart span{
-        margin-left: -22px;
-    }
-    .css-chart span{
-        margin-left: -22px;
-    }
-    .javascript-chart span{
-        margin-left: -22px;
-    }
-    .bootstrap-chart span{
-        margin-left: -22px;
-    }
-    .angular-chart span{
-        margin-left: -22px;
-    }
-    .lightroom-chart span{
-        margin-left: -26px;
-    }
-    .photoshop-chart span{
-        margin-left: -22px;
-    }
-    .premiere-chart span{
-        margin-left: -22px;
-    }
-    .photography-chart span{
-        margin-left: -22px;
-    }
-    .videography-chart span{
-        margin-left: -22px;
     }
     
 /*---------------------------- Portfolio ----------------------------*/
